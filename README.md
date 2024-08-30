@@ -1,12 +1,12 @@
 # pytorch-raytracing
 Ray tracing written in Pytorch, which uses Nvidia GPUs through CUDA.
 
-The Jupyter Notebook, and its previous versions, are available at https://www.kaggle.com/code/novakstijepic/fork-of-pytorch-ray-tracing .
+The Jupyter Notebook, and its previous versions, are available at https://www.kaggle.com/code/novakstijepic/fork-of-pytorch-ray-tracing . It was written in February 2024. This repo showcases the results.
 
 ## Table of Contents
 * [Pytorch and CUDA](#chapter1)
 * [Ray tracing](#chapter2)
-* [Results](#chapter3)
+* [Results - One run](#chapter3)
 
 ![image](./__results___29_1.png)
 
@@ -29,7 +29,7 @@ However, when light sources are small in size, this approach is not ideal. Namel
 
 Usually, better accuracy is achieved by averaging the amount of light across thousands of randomized runs. This works best on images with large light sources. However, if the radius of the main  light source is halved, the numbers of runs needed to achieve the same accuracy is _quadrupled_. A less computationally expensive approach is to bias the rays towards the light and weigh them accordingly. This project is designed to use a third, less invasive approach. Namely, all light sources are made bigger - for rays reflected off matte surfaces - and having them emit less light. This algorithm only needs a few runs to accurately measure the amount of light on every pixel.
 
-# Ray tracing <a id="chapter3"></a>
+# Results - One run <a id="chapter3"></a>
 
 ![image](./__results___37_1.png)
 ![image](./__results___37_2.png)
