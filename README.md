@@ -7,7 +7,7 @@ Ray tracing written in Pytorch, which uses Nvidia GPUs through CUDA.
 * [Results - One run](#chapter3)
 * [The code](#chapter4)
 
-The result of one run, executed in sub-second time:
+The result of one run, executed in sub-second time (a flat vertical mirror is on the left):
 ![image](./__results___37_15.png)
 
 
