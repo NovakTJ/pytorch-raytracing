@@ -3,12 +3,13 @@ Ray tracing written in Pytorch, which uses Nvidia GPUs through CUDA.
 
 The Jupyter Notebook, and its previous versions, are available at https://www.kaggle.com/code/novakstijepic/fork-of-pytorch-ray-tracing .
 
-![image](./__results___29_1.png)
-
 ## Table of Contents
 * [Pytorch and CUDA](#chapter1)
 * [Ray tracing](#chapter2)
 * [Results](#chapter3)
+
+![image](./__results___29_1.png)
+
 
 # Pytorch and CUDA <a class="anchor" id="chapter1"></a>
 
