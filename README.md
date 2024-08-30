@@ -7,7 +7,8 @@ Ray tracing written in Pytorch, which uses Nvidia GPUs through CUDA.
 * [Results - One run](#chapter3)
 * [The code](#chapter4)
 
-![image](./__results___29_1.png)
+The result of one run, executed in sub-second time:
+![image](./__results___37_15.png)
 
 
 # Pytorch and CUDA <a class="anchor" id="chapter1"></a>
@@ -38,6 +39,11 @@ Usually, better accuracy is achieved by averaging the amount of light across tho
 ![image](./__results___37_6.png)
 ![image](./__results___37_14.png)
 ![image](./__results___37_15.png)
+
+
+This is the result of multiple runs on a similar scene, without artificial lightening and pixel blurring on matte surfaces:
+![image](./__results___29_1.png)
+
 
 # Code <a id="chapter4"></a>
 
